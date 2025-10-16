@@ -124,6 +124,10 @@ print("-------------------------------------------\n"
 #     print("Try again")
 #
 # Write your code below:
+number = int(input("what is your number?"))
+while number <= 0 or number >= 10:  
+    number = int(input("Try again")) 
+    print ("Thank-you") 
 
 
 # -------------------------------------------
