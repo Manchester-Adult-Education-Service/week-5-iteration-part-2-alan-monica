@@ -49,7 +49,10 @@ print("-------------------------------------------\n"
 #     number = number + 1
 #
 # Write your code below:
-
+count = 1
+while count <=5:
+    print(count)
+    count = count+1
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -84,6 +87,10 @@ print("-------------------------------------------\n"
 #     something = input("Type again: ")
 #
 # Write your code below:
+word = input("what is the word ")
+while word != "stop":
+        print(f"You typed {word}")
+        word = input ("Try again") 
 
 
 # -------------------------------------------
@@ -117,6 +124,10 @@ print("-------------------------------------------\n"
 #     print("Try again")
 #
 # Write your code below:
+number = int(input("what is your number?"))
+while number <= 0 or number >= 10:  
+    number = int(input("Try again")) 
+    print ("Thank-you") 
 
 
 # -------------------------------------------
@@ -156,6 +167,7 @@ print("-------------------------------------------\n"
 #     something = something - 1
 
 # Write your code below:
+
 
 
 # -------------------------------------------
