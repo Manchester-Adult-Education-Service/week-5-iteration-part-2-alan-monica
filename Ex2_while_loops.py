@@ -87,6 +87,10 @@ print("-------------------------------------------\n"
 #     something = input("Type again: ")
 #
 # Write your code below:
+word = input("what is the word ")
+while word != "stop":
+        print(f"You typed {word}")
+        word = input ("Try again") 
 
 
 # -------------------------------------------
